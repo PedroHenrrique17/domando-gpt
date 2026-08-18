@@ -1,3 +1,5 @@
+import "./Banner.css"
+
 const Banner = () => {
   return (
     <>
@@ -8,7 +10,7 @@ const Banner = () => {
         />
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

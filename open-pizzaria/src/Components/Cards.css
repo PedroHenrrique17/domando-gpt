@@ -1,0 +1,36 @@
+.sobre-pizzaria {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.sobre-pizzaria article {
+  flex: 1;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  border-top: 5px solid #d62828;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sobre-pizzaria article:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.22);
+}
+
+.sobre-pizzaria h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #d62828;
+  font-size: 26px;
+}
+
+.sobre-pizzaria p {
+  margin: 0;
+  color: #5c1a1a;
+  font-size: 16px;
+  line-height: 1.7;
+}
