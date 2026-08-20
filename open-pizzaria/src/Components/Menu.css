@@ -1,0 +1,229 @@
+.menu {
+  width: 100%;
+  background: #171717;
+  border-bottom: 3px solid #ff6b00;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  z-index: 1000;
+}
+
+.menu-container {
+  max-width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo span {
+  font-size: 30px;
+}
+
+.logo h2 {
+  margin: 0;
+
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.logo strong {
+  color: #ff6b00;
+}
+
+
+/* =========================
+   MENU LINKS
+========================= */
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.menu-list li {
+  position: relative;
+}
+
+.menu-list a {
+  display: block;
+
+  padding: 12px 16px;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  border-radius: 8px;
+
+  transition: all 0.3s ease;
+}
+
+.menu-list a:hover {
+  color: #ffffff;
+  background: #d62828;
+}
+
+
+/* =========================
+   DROPDOWN
+========================= */
+
+.dropdown-menu {
+  position: absolute;
+
+  top: 100%;
+  left: 0;
+
+  min-width: 180px;
+
+  margin-top: 10px;
+  padding: 8px;
+
+  background: #222222;
+
+  border: 1px solid #333;
+  border-top: 3px solid #ff6b00;
+
+  border-radius: 0 0 10px 10px;
+
+  list-style: none;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(10px);
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu a {
+  padding: 12px 15px;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+}
+
+
+/* =========================
+   BOTÃO PEDIDO
+========================= */
+
+.order-button {
+  padding: 13px 20px;
+
+  background: #ff6b00;
+  color: #ffffff;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  box-shadow: 0 4px 15px rgba(255, 107, 0, 0.25);
+
+  transition: all 0.3s ease;
+}
+
+.order-button:hover {
+  background: #d62828;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 20px rgba(214, 40, 40, 0.35);
+}
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 900px) {
+
+  .menu-container {
+    height: auto;
+    min-height: 80px;
+    flex-wrap: wrap;
+
+    padding: 15px 20px;
+  }
+
+  .menu-list {
+    order: 3;
+
+    width: 100%;
+
+    justify-content: center;
+
+    margin-top: 15px;
+    padding-bottom: 5px;
+
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .menu-container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .logo h2 {
+    font-size: 18px;
+  }
+
+  .logo span {
+    font-size: 25px;
+  }
+
+  .menu-list {
+    gap: 2px;
+  }
+
+  .menu-list a {
+    padding: 9px 10px;
+    font-size: 13px;
+  }
+
+  .order-button {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
