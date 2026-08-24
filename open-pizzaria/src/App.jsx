@@ -1,10 +1,7 @@
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
-import Banner from "./Components/Banner";
-import Cards from "./Components/Cards";
-import FeedBack from "./Components/FeedBack";
 import Footer from "./Components/Footer";
-
+import Router from "./Router";
 import "./Global.css";
 
 function App() {
@@ -16,13 +13,9 @@ function App() {
         mais saboroso."
       />
 
-      <Menu />
+      
 
-      <Banner />
-
-      <Cards />
-
-      <FeedBack />
+      <Router />
 
       <Footer />
     </div>

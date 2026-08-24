@@ -1,19 +1,21 @@
+import { Link } from "react-router-dom";
 import "./Menu.css";
+ 
 
 const Menu = () => {
   return (
     <nav>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
 
         <li>
-          <a href="#">Sobre</a>
+          <Link to="/sobre">Sobre</Link>
         </li>
-
         <li className="submenu">
           <a href="#">Cardápio ▾</a>
+
           <ul>
             <li>
               <a href="#">Calabresa</a>
@@ -26,6 +28,7 @@ const Menu = () => {
             <li>
               <a href="#">Frango com catupiry</a>
             </li>
+
             <li>
               <a href="#">Toscana</a>
             </li>
