@@ -1,0 +1,52 @@
+.Banner {
+  width: min(1000px, 92%);
+  height: 300px;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #1a1a1a;
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.25),
+    0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagem */
+.Banner img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* Efeito de zoom */
+.Banner:hover img {
+  transform: scale(1.06);
+}
+
+
+/* Borda dourada sutil */
+.Banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 193, 7, 0.35);
+  border-radius: 24px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .Banner {
+    width: 94%;
+    height: 220px;
+    margin: 30px auto;
+    border-radius: 18px;
+  }
+
+  .Banner::before {
+    border-radius: 18px;
+  }
+}
