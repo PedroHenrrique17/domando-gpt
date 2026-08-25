@@ -14,27 +14,8 @@ const Menu = () => {
           <Link to="/sobre">Sobre</Link>
         </li>
         <li className="submenu">
-          <a href="#">Cardápio ▾</a>
-
-          <ul>
-            <li>
-              <a href="#">Calabresa</a>
-            </li>
-
-            <li>
-              <a href="#">Mussarela</a>
-            </li>
-
-            <li>
-              <a href="#">Frango com catupiry</a>
-            </li>
-
-            <li>
-              <a href="#">Toscana</a>
-            </li>
-          </ul>
+         <Link to="/cardapio">Cardapio</Link>
         </li>
-
         <li className="submenu">
           <a href="#">Fale Conosco ▾</a>
 

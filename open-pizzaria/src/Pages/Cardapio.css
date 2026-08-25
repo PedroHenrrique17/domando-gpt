@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #d62828;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cardapio {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.pizza {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pizza h2 {
+    margin: 0 0 10px;
+    color: #d62828;
+}
+
+.pizza p {
+    color: #555;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a9d8f;
+}

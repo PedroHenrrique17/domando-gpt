@@ -5,7 +5,6 @@ export default function Sobre() {
   return (
     <div className="sobre">
       <div className="sobre-container">
-
         <h1>🍕 Sobre Nossa Pizzaria</h1>
 
         <p className="introducao">
@@ -14,7 +13,6 @@ export default function Sobre() {
         </p>
 
         <div className="abas">
-
           <input type="radio" id="historia" name="aba" defaultChecked />
           <label htmlFor="historia">Nossa História</label>
 
@@ -39,9 +37,9 @@ export default function Sobre() {
           <div className="conteudo ingredientes">
             <h2>🧀 Nossos Ingredientes</h2>
             <p>
-              Trabalhamos com ingredientes frescos e selecionados. Nossa massa
-              é preparada diariamente e nossos molhos possuem receitas
-              especiais para deixar cada pizza ainda mais saborosa.
+              Trabalhamos com ingredientes frescos e selecionados. Nossa massa é
+              preparada diariamente e nossos molhos possuem receitas especiais
+              para deixar cada pizza ainda mais saborosa.
             </p>
           </div>
 
@@ -62,7 +60,6 @@ export default function Sobre() {
               atendimento especial aos nossos clientes.
             </p>
           </div>
-
         </div>
       </div>
     </div>
