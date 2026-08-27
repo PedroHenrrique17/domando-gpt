@@ -1,0 +1,164 @@
+/* =========================
+   Página de Comentários
+   ========================= */
+
+.containerComents {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #fff7ed;
+  color: #2b2b2b;
+}
+
+/* Título */
+
+.containerComents h1 {
+  text-align: center;
+  margin: 0 0 10px;
+  color: #c62828;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/* Link Voltar */
+
+.containerComents > a {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 35px;
+  padding: 10px 18px;
+
+  background: #c62828;
+  color: white;
+
+  text-decoration: none;
+  font-weight: 600;
+
+  border-radius: 8px;
+
+  transition: 0.3s ease;
+}
+
+.containerComents > a:hover {
+  background: #a51f1f;
+  transform: translateY(-2px);
+}
+
+/* Área dos comentários */
+
+.contentComents {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Card */
+
+.contentComents article {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 25px;
+
+  background: white;
+
+  border-radius: 15px;
+
+  border-left: 6px solid #e53935;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+
+.contentComents article:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(198, 40, 40, 0.15);
+}
+
+/* Emoji decorativo */
+
+.contentComents article::before {
+  content: "🍕";
+
+  position: absolute;
+  right: 20px;
+  top: 18px;
+
+  font-size: 28px;
+}
+
+/* Informações */
+
+.contentComents article strong {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Primeiro texto - Nome */
+
+.contentComents article strong:first-child {
+  color: #c62828;
+  font-size: 20px;
+}
+
+/* Email */
+
+.contentComents article strong:nth-child(2) {
+  color: #666;
+}
+
+/* Telefone */
+
+.contentComents article strong:nth-child(3) {
+  color: #777;
+}
+
+/* =========================
+   Responsividade
+   ========================= */
+
+@media (max-width: 700px) {
+  .containerComents {
+    padding: 30px 15px;
+  }
+
+  .containerComents h1 {
+    font-size: 28px;
+  }
+
+  .contentComents {
+    grid-template-columns: 1fr;
+  }
+
+  .contentComents article {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .containerComents h1 {
+    font-size: 24px;
+  }
+
+  .containerComents > a {
+    font-size: 14px;
+  }
+
+  .contentComents article strong {
+    font-size: 14px;
+  }
+
+  .contentComents article strong:first-child {
+    font-size: 18px;
+  }
+}
