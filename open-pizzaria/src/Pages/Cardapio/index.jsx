@@ -217,35 +217,35 @@ export default function Cardapio() {
         <p>As melhores pizzas da cidade!</p>
       </header>
 
-      <main class="cardapio">
-        <div class="pizza">
+      <main className="cardapio">
+        <div className="pizza">
           <h2>🍕 Calabresa</h2>
           <p>Molho de tomate, mussarela, calabresa e cebola.</p>
-          <span class="preco">R$ 39,90</span>
+          <span className="preco">R$ 39,90</span>
         </div>
 
-        <div class="pizza">
+        <div className="pizza">
           <h2>🍕 Mussarela</h2>
           <p>Molho de tomate, mussarela, tomate e orégano.</p>
-          <span class="preco">R$ 37,90</span>
+          <span className="preco">R$ 37,90</span>
         </div>
 
-        <div class="pizza">
+        <div className="pizza">
           <h2>🍕 Frango com Catupiry</h2>
           <p>Molho de tomate, frango desfiado e catupiry.</p>
-          <span class="preco">R$ 44,90</span>
+          <span className="preco">R$ 44,90</span>
         </div>
 
-        <div class="pizza">
+        <div className="pizza">
           <h2>🍕 Portuguesa</h2>
           <p>Presunto, ovos, cebola, ervilha, mussarela e azeitona.</p>
-          <span class="preco">R$ 46,90</span>
+          <span className="preco">R$ 46,90</span>
         </div>
 
-        <div class="pizza">
+        <div className="pizza">
           <h2>🍕 Chocolate</h2>
           <p>Chocolate ao leite e chocolate branco.</p>
-          <span class="preco">R$ 42,90</span>
+          <span className="preco">R$ 42,90</span>
         </div>
       </main>
     </div>

@@ -13,11 +13,14 @@ const Menu = () => {
         <li>
           <Link to="/sobre">Sobre</Link>
         </li>
+        <li>
+          <Link to="/users">Usuarios</Link>
+        </li>
         <li className="submenu">
          <Link to="/cardapio">Cardapio</Link>
         </li>
         <li className="submenu">
-          <a href="#">Fale Conosco ▾</a>
+          <a href="#">Mais ▾</a>
 
           <ul>
             <li>
