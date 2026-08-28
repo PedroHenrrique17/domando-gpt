@@ -1,9 +1,10 @@
-import React from "react";
+import  { useEffect, useState } from "react";
 import "./Comentario.css"
+import { Link } from "react-router-dom";
 
 export default function index() {
   //UseState do react para gerenciar estados dos usuarios
-  const [comentario, setComentario] = useState([]);
+  const [comentario, setComentario] = useState ([]);
 
   //Hook useEffect para lidar com efeitos colaterais no componente
   useEffect(() => {
