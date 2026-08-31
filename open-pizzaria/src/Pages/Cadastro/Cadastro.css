@@ -1,0 +1,147 @@
+/* =========================
+   OPEN PIZZARIA - CADASTRO
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+.containerCadastro {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 20px;
+
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(255, 193, 7, 0.18),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(214, 40, 40, 0.15),
+      transparent 30%
+    ),
+    #fff7ed;
+}
+
+/* Título */
+.containerCadastro h1 {
+  margin-bottom: 25px;
+
+  color: #c62828;
+
+  font-size: 36px;
+  font-weight: 800;
+
+  text-align: center;
+
+  letter-spacing: -1px;
+}
+
+/* Card do formulário */
+.containerCadastro form {
+  width: 100%;
+  max-width: 450px;
+
+  padding: 40px;
+
+  background: #ffffff;
+
+  border-radius: 20px;
+
+  border-top: 5px solid #e63946;
+
+  box-shadow:
+    0 20px 45px rgba(70, 35, 15, 0.12),
+    0 5px 15px rgba(70, 35, 15, 0.06);
+}
+
+/* Campos */
+.containerCadastro .form-control {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.containerCadastro .form-control label {
+  margin-bottom: 8px;
+
+  color: #3d2418;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* Inputs */
+.containerCadastro .form-control input {
+  width: 100%;
+
+  padding: 14px 16px;
+
+  border: 2px solid #eaded5;
+  border-radius: 10px;
+
+  background: #fffaf5;
+
+  color: #3d2418;
+
+  font-size: 16px;
+
+  outline: none;
+
+  transition: 0.25
+}
+
+/* Botão de cadastro */
+.botao-cadastro {
+  width: 100%;
+  padding: 15px 20px;
+
+  margin-top: 5px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #e63946, #c62828);
+
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 18px rgba(198, 40, 40, 0.25);
+
+  transition: all 0.25s ease;
+}
+
+/* Quando passar o mouse */
+.botao-cadastro:hover {
+  background: linear-gradient(135deg, #c62828, #a91f1f);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 12px 25px rgba(198, 40, 40, 0.35);
+}
+
+/* Quando clicar */
+.botao-cadastro:active {
+  transform: translateY(0);
+
+  box-shadow: 0 5px 12px rgba(198, 40, 40, 0.2);
+}
