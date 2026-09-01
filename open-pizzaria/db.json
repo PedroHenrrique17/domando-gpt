@@ -1,28 +1,110 @@
 {
   "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
   ],
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ],
   "profile": {
     "name": "typicode"
   },
   "users": [
-    { "nome": "João Silva", "email": "joao@email.com", "telefone": "11999990001" },
-    { "nome": "Maria Santos", "email": "maria@email.com", "telefone": "11999990002" },
-    { "nome": "Pedro Oliveira", "email": "pedro@email.com", "telefone": "11999990003" },
-    { "nome": "Ana Souza", "email": "ana@email.com", "telefone": "11999990004" },
-    { "nome": "Carlos Pereira", "email": "carlos@email.com", "telefone": "11999990005" },
-    { "nome": "Juliana Costa", "email": "juliana@email.com", "telefone": "11999990006" },
-    { "nome": "Lucas Almeida", "email": "lucas@email.com", "telefone": "11999990007" },
-    {"nome": "Fernanda Lima", "email": "fernanda@email.com", "telefone": "11999990008" },
-    { "nome": "Rafael Martins", "email": "rafael@email.com", "telefone": "11999990009" },
-    { "nome": "Camila Rodrigues", "email": "camila@email.com", "telefone": "11999990010" },
-    { "nome": "Brenigga", "email": "breno@email.com", "telefone": "11999990011" }
-  ]
+    {
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "telefone": "11999990001",
+      "id": "2Gvdtxci7lk"
+    },
+    {
+      "nome": "Maria Santos",
+      "email": "maria@email.com",
+      "telefone": "11999990002",
+      "id": "vdcA5OoVg28"
+    },
+    {
+      "nome": "Pedro Oliveira",
+      "email": "pedro@email.com",
+      "telefone": "11999990003",
+      "id": "dDYQR4cc0qY"
+    },
+    {
+      "nome": "Ana Souza",
+      "email": "ana@email.com",
+      "telefone": "11999990004",
+      "id": "t4RcEtJbWTM"
+    },
+    {
+      "nome": "Carlos Pereira",
+      "email": "carlos@email.com",
+      "telefone": "11999990005",
+      "id": "jKLW-a96VMk"
+    },
+    {
+      "nome": "Juliana Costa",
+      "email": "juliana@email.com",
+      "telefone": "11999990006",
+      "id": "l898-3Zblk0"
+    },
+    {
+      "nome": "Lucas Almeida",
+      "email": "lucas@email.com",
+      "telefone": "11999990007",
+      "id": "zeQPw3iM43k"
+    },
+    {
+      "nome": "Fernanda Lima",
+      "email": "fernanda@email.com",
+      "telefone": "11999990008",
+      "id": "cymlfmpE4I4"
+    },
+    {
+      "nome": "Rafael Martins",
+      "email": "rafael@email.com",
+      "telefone": "11999990009",
+      "id": "r3siexaS4HA"
+    },
+    {
+      "nome": "Camila Rodrigues",
+      "email": "camila@email.com",
+      "telefone": "11999990010",
+      "id": "v_y7wK36bHM"
+    },
+    {
+      "nome": "Brenigga",
+      "email": "breno@email.com",
+      "telefone": "11999990011",
+      "id": "HKckhOSMdlc"
+    },
+    {
+      "nome": "igor",
+      "email": "igor@gmail.com",
+      "telefone": "7127137173",
+      "id": "fBUPLvvAruE"
+    },
+    {
+      "nome": "rodriguinho",
+      "email": "rodriguinho69@hotmail.com",
+      "telefone": "119999-9999",
+      "id": "gmYjB-E3tAs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
-
-
