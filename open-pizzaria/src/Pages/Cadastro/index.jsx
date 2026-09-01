@@ -9,10 +9,25 @@ export default function Index() {
     telefone: "",
 })
   
+  //Função para atualizar o estado ao digitar no formulario
+  const handleChange = (event) => {
+    const {name, value} = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }))
+  }
+
+  //Função para enviar o formulario 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log("Enviar")
+  }
+
   return (
     <main className="containerCadastro">
       <h1>Cadastro de Usuário</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <article className="form-control">
           <label htmlFor="nome">Nome</label>
           <input 
@@ -20,6 +35,7 @@ export default function Index() {
             name="nome"
             placeholder="Digite seu nome"
             value={formData.nome}
+            onChange={handleChange}
             />
 
 
@@ -32,6 +48,7 @@ export default function Index() {
             name="email"
             placeholder="Digite seu email"
             value={formData.email}
+            onChange={handleChange}
             />
 
         </article>
@@ -43,6 +60,7 @@ export default function Index() {
            name="telefone" 
            placeholder="(00) 00000-0000"
            value={formData.telefone}
+           onChange={handleChange}
            />
 
         </article>
