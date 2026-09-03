@@ -68,42 +68,6 @@
       "email": "lucas@email.com",
       "telefone": "11999990007",
       "id": "zeQPw3iM43k"
-    },
-    {
-      "nome": "Fernanda Lima",
-      "email": "fernanda@email.com",
-      "telefone": "11999990008",
-      "id": "cymlfmpE4I4"
-    },
-    {
-      "nome": "Rafael Martins",
-      "email": "rafael@email.com",
-      "telefone": "11999990009",
-      "id": "r3siexaS4HA"
-    },
-    {
-      "nome": "Camila Rodrigues",
-      "email": "camila@email.com",
-      "telefone": "11999990010",
-      "id": "v_y7wK36bHM"
-    },
-    {
-      "nome": "Brenigga",
-      "email": "breno@email.com",
-      "telefone": "11999990011",
-      "id": "HKckhOSMdlc"
-    },
-    {
-      "nome": "igor",
-      "email": "igor@gmail.com",
-      "telefone": "7127137173",
-      "id": "fBUPLvvAruE"
-    },
-    {
-      "nome": "rodriguinho",
-      "email": "rodriguinho69@hotmail.com",
-      "telefone": "119999-9999",
-      "id": "gmYjB-E3tAs"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

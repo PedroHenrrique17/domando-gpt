@@ -58,6 +58,19 @@
   transition: 0.3s ease;
 }
 
+.btn-delete {
+  background: orangered;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /* Efeito ao passar o mouse */
 .contentUsers article:hover {
   transform: translateY(-6px);
